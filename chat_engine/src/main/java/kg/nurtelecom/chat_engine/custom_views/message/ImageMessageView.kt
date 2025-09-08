@@ -73,6 +73,7 @@ class ImageMessageView @JvmOverloads constructor(
         when (status) {
             MessageStatus.LOADING -> setupStatusIcon(R.drawable.chat_engine_ic_clock_white_bg)
             MessageStatus.ERROR -> setupStatusIcon(R.drawable.chat_engine_ic_circle_warning)
+            MessageStatus.DONE -> setupStatusIcon(R.drawable.chat_engine_ic_circle_done)
         }
     }
 
@@ -84,6 +85,7 @@ class ImageMessageView @JvmOverloads constructor(
                 vb.pbProgress.isVisible = true
             }
             MessageStatus.ERROR -> setupStatusIcon(R.drawable.chat_engine_ic_circle_warning)
+            MessageStatus.DONE -> setupStatusIcon(R.drawable.chat_engine_ic_circle_done)
         }
     }
 

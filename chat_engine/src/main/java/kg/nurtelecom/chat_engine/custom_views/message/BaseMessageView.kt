@@ -82,6 +82,7 @@ abstract class BaseMessageView<VB: ViewBinding> @JvmOverloads constructor(
         val type = when (intType) {
             MessageType.USER.ordinal -> MessageType.USER
             MessageType.SYSTEM.ordinal -> MessageType.SYSTEM
+            MessageType.TECHNIQUE.ordinal -> MessageType.TECHNIQUE
             else -> return
         }
         setupMessageType(type)
@@ -92,11 +93,13 @@ abstract class BaseMessageView<VB: ViewBinding> @JvmOverloads constructor(
         when (type) {
             MessageType.USER -> setupAsResponseMessage()
             MessageType.SYSTEM -> setupAsRequestMessage()
+            MessageType.TECHNIQUE -> setupAsTechniqueMessage()
         }
     }
 
     open fun setupAsResponseMessage() {}
     open fun setupAsRequestMessage() {}
+    open fun setupAsTechniqueMessage() {}
 
     companion object {
         const val SUPER_STATE = "super_state"

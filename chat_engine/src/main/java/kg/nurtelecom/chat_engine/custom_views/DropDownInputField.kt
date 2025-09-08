@@ -7,8 +7,8 @@ import android.widget.LinearLayout
 import android.widget.TextView
 import androidx.cardview.widget.CardView
 import androidx.core.content.ContextCompat.getColor
-import com.design2.chili2.view.modals.bottom_sheet.serach_bottom_sheet.Option
-import com.design2.chili2.view.modals.bottom_sheet.serach_bottom_sheet.SearchSelectorBottomSheet
+import kg.nurtelecom.design.chili2.view.modals.bottom_sheet.serach_bottom_sheet.Option
+import kg.nurtelecom.design.chili2.view.modals.bottom_sheet.serach_bottom_sheet.SearchSelectorBottomSheet
 import kg.nurtelecom.chat_engine.R
 import kg.nurtelecom.chat_engine.base.additional_fragment.input_form.item_creators.DropDownFieldCreator
 import kg.nurtelecom.chat_engine.model.ChooseType
@@ -77,7 +77,7 @@ class DropDownInputField @JvmOverloads constructor(
     fun setHint(hint: String) {
         views.tvTitle.apply {
             text = hint
-            setTextColor(getColor(context, com.design2.chili2.R.color.gray_1_alpha_50))
+            setTextColor(getColor(context, kg.nurtelecom.design.chili2.R.color.gray_1_alpha_50))
         }
     }
 

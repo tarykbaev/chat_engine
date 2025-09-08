@@ -18,6 +18,7 @@ open class ValidatableItem {
                         return false
                     }
                 }
+                null -> {}
             }
         }
         return true

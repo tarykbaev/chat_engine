@@ -60,7 +60,7 @@ class DatePickerInputField @JvmOverloads constructor(
             setTextColor(
                 ContextCompat.getColor(
                     context,
-                    com.design2.chili2.R.color.gray_1_alpha_50
+                    kg.nurtelecom.design.chili2.R.color.gray_1_alpha_50
                 )
             )
         }

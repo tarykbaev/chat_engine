@@ -5,7 +5,7 @@ import android.text.InputFilter
 import android.text.InputType
 import android.view.Gravity
 import android.widget.LinearLayout
-import com.design2.chili2.view.input.MaskedInputView
+import kg.nurtelecom.design.chili2.view.input.MaskedInputView
 import kg.nurtelecom.chat_engine.model.InputField
 import kg.nurtelecom.chat_engine.model.InputFieldInputType
 import kg.nurtelecom.chat_engine.model.Validation
@@ -24,10 +24,10 @@ object InputFieldCreator : ValidatableItem() {
                 LinearLayout.LayoutParams.WRAP_CONTENT
             ).apply {
                 setMargins(
-                    resources.getDimensionPixelSize(com.design2.chili2.R.dimen.padding_16dp),
-                    resources.getDimensionPixelSize(com.design2.chili2.R.dimen.padding_8dp),
-                    resources.getDimensionPixelSize(com.design2.chili2.R.dimen.padding_16dp),
-                    resources.getDimensionPixelSize(com.design2.chili2.R.dimen.padding_8dp)
+                    resources.getDimensionPixelSize(kg.nurtelecom.design.chili2.R.dimen.padding_16dp),
+                    resources.getDimensionPixelSize(kg.nurtelecom.design.chili2.R.dimen.padding_8dp),
+                    resources.getDimensionPixelSize(kg.nurtelecom.design.chili2.R.dimen.padding_16dp),
+                    resources.getDimensionPixelSize(kg.nurtelecom.design.chili2.R.dimen.padding_8dp)
                 )
             }
             setGravity(Gravity.START)

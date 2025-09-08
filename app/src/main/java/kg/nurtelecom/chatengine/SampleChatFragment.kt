@@ -6,12 +6,11 @@ import android.net.Uri
 import android.widget.Toast
 import androidx.activity.result.ActivityResultCallback
 import androidx.fragment.app.Fragment
-import com.design2.chili2.view.navigation_components.ChiliToolbar
 import kg.nurtelecom.chat_engine.base.chat.BaseChatFragment
-import kg.nurtelecom.chat_engine.base.chat.adapter.ItemTyping
 import kg.nurtelecom.chat_engine.model.*
 import kg.nurtelecom.chatengine.bridges.SampleFlowResultReceiver
 import kg.nurtelecom.chatengine.bridges.SampleFlowScreenNavigator
+import kg.nurtelecom.design.chili2.view.navigation_components.ChiliToolbar
 import java.util.*
 
 

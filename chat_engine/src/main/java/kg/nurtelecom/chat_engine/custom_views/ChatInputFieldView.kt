@@ -10,7 +10,7 @@ import android.widget.LinearLayout
 import androidx.annotation.DrawableRes
 import androidx.core.view.isVisible
 import androidx.core.widget.addTextChangedListener
-import com.design2.chili2.view.input.text_watchers.MaskedTextWatcher
+import kg.nurtelecom.design.chili2.view.input.text_watchers.MaskedTextWatcher
 import kg.nurtelecom.chat_engine.R
 import kg.nurtelecom.chat_engine.base.additional_fragment.input_form.item_creators.ValidatableItem
 import kg.nurtelecom.chat_engine.databinding.ChatEngineViewChatInputFieldBinding

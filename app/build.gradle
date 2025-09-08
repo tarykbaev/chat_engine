@@ -7,7 +7,7 @@ android {
 
     namespace 'kg.nurtelecom.chatengine'
 
-    compileSdk 34
+    compileSdk 35
 
     defaultConfig {
         applicationId "kg.nurtelecom.chatengine"
@@ -38,7 +38,7 @@ dependencies {
 
     implementation project(':chat_engine')
 
-    implementation 'com.github.ealmaz:DesignChili2:1.0.268'
+    implementation 'com.github.tarykbaev:DesignChili2:1.1.0'
 
     implementation 'androidx.core:core-ktx:1.7.0'
     implementation 'androidx.appcompat:appcompat:1.4.0'

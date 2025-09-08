@@ -3,7 +3,7 @@ package kg.nurtelecom.chat_engine.base.additional_fragment.input_form.item_creat
 import android.content.Context
 import android.view.Gravity
 import android.widget.LinearLayout
-import com.design2.chili2.view.input.BaseInputView
+import kg.nurtelecom.design.chili2.view.input.BaseInputView
 
 object UnsupportedItemCreator {
 
@@ -13,9 +13,9 @@ object UnsupportedItemCreator {
             layoutParams = LinearLayout.LayoutParams(LinearLayout.LayoutParams.MATCH_PARENT, LinearLayout.LayoutParams.WRAP_CONTENT).apply {
                 setMargins(
                     0,
-                    resources.getDimensionPixelSize(com.design2.chili2.R.dimen.padding_4dp),
+                    resources.getDimensionPixelSize(kg.nurtelecom.design.chili2.R.dimen.padding_4dp),
                     0,
-                    resources.getDimensionPixelSize(com.design2.chili2.R.dimen.padding_4dp)
+                    resources.getDimensionPixelSize(kg.nurtelecom.design.chili2.R.dimen.padding_4dp)
                 )
             }
             setGravity(Gravity.START)

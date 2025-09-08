@@ -19,13 +19,13 @@ object DatePickerFieldCreator : ValidatableItem() {
                 LinearLayout.LayoutParams.WRAP_CONTENT
             ).apply {
                 setMargins(
-                    resources.getDimensionPixelSize(com.design2.chili2.R.dimen.padding_16dp),
-                    resources.getDimensionPixelSize(com.design2.chili2.R.dimen.padding_8dp),
-                    resources.getDimensionPixelSize(com.design2.chili2.R.dimen.padding_16dp),
-                    resources.getDimensionPixelSize(com.design2.chili2.R.dimen.padding_8dp)
+                    resources.getDimensionPixelSize(kg.nurtelecom.design.chili2.R.dimen.padding_16dp),
+                    resources.getDimensionPixelSize(kg.nurtelecom.design.chili2.R.dimen.padding_8dp),
+                    resources.getDimensionPixelSize(kg.nurtelecom.design.chili2.R.dimen.padding_16dp),
+                    resources.getDimensionPixelSize(kg.nurtelecom.design.chili2.R.dimen.padding_8dp)
                 )
             }
-            setCornerRadius(resources.getDimension(com.design2.chili2.R.dimen.radius_12dp))
+            setCornerRadius(resources.getDimension(kg.nurtelecom.design.chili2.R.dimen.radius_12dp))
             setupViews(datePickerFieldInfo, onSetValue)
         }
     }

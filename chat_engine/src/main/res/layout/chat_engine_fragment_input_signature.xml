@@ -7,7 +7,7 @@
     xmlns:app="http://schemas.android.com/apk/res-auto"
     android:background="@color/chat_engine_input_form_background">
 
-    <com.design2.chili2.view.navigation_components.ChiliToolbar
+    <kg.nurtelecom.design.chili2.view.navigation_components.ChiliToolbar
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         app:layout_constraintTop_toTopOf="parent"
@@ -49,7 +49,7 @@
         android:layout_marginEnd="@dimen/padding_16dp"
         android:layout_marginStart="@dimen/padding_8dp"/>
 
-    <com.design2.chili2.view.buttons.LoaderButton
+    <kg.nurtelecom.design.chili2.view.buttons.LoaderButton
         android:id="@+id/btn_continue"
         android:text="@string/next"
         android:enabled="false"
